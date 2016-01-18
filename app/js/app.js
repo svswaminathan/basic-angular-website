@@ -10,7 +10,7 @@ angular.module('bdotnet-meetup', [
   'bdotnet-meetup.controllers'
 ]).
 config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/speakers', {templateUrl: 'partials/speakers.html'});
+  $routeProvider.when('/agenda', {templateUrl: 'partials/agenda.html'});
   $routeProvider.when('/contact', {templateUrl: 'partials/contact.html'});
   $routeProvider.when('/home', {templateUrl: 'partials/home.html'});
   $routeProvider.otherwise({redirectTo: '/home'});
